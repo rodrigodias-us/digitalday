@@ -10,6 +10,7 @@
 
 @interface ViewController : UIViewController
 
+-(void)changePageTo:(int)page;
 
 @end
 

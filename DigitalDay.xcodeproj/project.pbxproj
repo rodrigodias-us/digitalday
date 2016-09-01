@@ -7,6 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0d2c4a01b05072bd5388a858 /* calabash.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47ca8a1e84b8e0ba3749b9a8 /* calabash.framework */; };
+		2fb306dd69873a7ec0267f8f /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 68C7773E1D775C3800FB32EC /* main.m */; };
+		303ef7e743e9700ef2a2b0d1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68C777461D775C3800FB32EC /* Main.storyboard */; };
+		37e384175791463049a791a7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 68C777411D775C3800FB32EC /* AppDelegate.m */; };
+		4cb76ef02a2993059f79e044 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24fc8f7342b603f5d8392483 /* CFNetwork.framework */; };
+		68C266C71D789B4A00EC4F17 /* ContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68C266C61D789B4A00EC4F17 /* ContainerViewController.m */; };
+		68C266C81D789B6200EC4F17 /* ContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68C266C61D789B4A00EC4F17 /* ContainerViewController.m */; };
+		68C266CA1D78BCA700EC4F17 /* Material.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68C266C91D78BCA700EC4F17 /* Material.framework */; };
+		68C266CB1D78BCA700EC4F17 /* Material.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 68C266C91D78BCA700EC4F17 /* Material.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		68C266CE1D78BD2A00EC4F17 /* SVProgressHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68C266CD1D78BD2A00EC4F17 /* SVProgressHUD.framework */; };
+		68C266CF1D78BD2A00EC4F17 /* SVProgressHUD.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 68C266CD1D78BD2A00EC4F17 /* SVProgressHUD.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		68C266D01D78BD8000EC4F17 /* SVProgressHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68C266CD1D78BD2A00EC4F17 /* SVProgressHUD.framework */; };
+		68C266D11D78BD8000EC4F17 /* SVProgressHUD.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 68C266CD1D78BD2A00EC4F17 /* SVProgressHUD.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		68C266D31D78BD8600EC4F17 /* Material.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68C266C91D78BCA700EC4F17 /* Material.framework */; };
+		68C266D41D78BD8600EC4F17 /* Material.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 68C266C91D78BCA700EC4F17 /* Material.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		68C7773F1D775C3800FB32EC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 68C7773E1D775C3800FB32EC /* main.m */; };
 		68C777421D775C3800FB32EC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 68C777411D775C3800FB32EC /* AppDelegate.m */; };
 		68C777451D775C3800FB32EC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68C777441D775C3800FB32EC /* ViewController.m */; };
@@ -15,6 +30,9 @@
 		68C7774D1D775C3800FB32EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68C7774B1D775C3800FB32EC /* LaunchScreen.storyboard */; };
 		68C777581D775C3800FB32EC /* DigitalDayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 68C777571D775C3800FB32EC /* DigitalDayTests.m */; };
 		68C777631D775C3800FB32EC /* DigitalDayUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 68C777621D775C3800FB32EC /* DigitalDayUITests.m */; };
+		9899e1faed8c35517ffdeac2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68C7774B1D775C3800FB32EC /* LaunchScreen.storyboard */; };
+		d43085a0952ede31d4bc5933 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68C777441D775C3800FB32EC /* ViewController.m */; };
+		e8fd62473c3a0c2626b96294 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68C777491D775C3800FB32EC /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,7 +52,41 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		68C266CC1D78BCA700EC4F17 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				68C266CF1D78BD2A00EC4F17 /* SVProgressHUD.framework in Embed Frameworks */,
+				68C266CB1D78BCA700EC4F17 /* Material.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68C266D21D78BD8000EC4F17 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				68C266D11D78BD8000EC4F17 /* SVProgressHUD.framework in Embed Frameworks */,
+				68C266D41D78BD8600EC4F17 /* Material.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		24fc8f7342b603f5d8392483 /* CFNetwork.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		47ca8a1e84b8e0ba3749b9a8 /* calabash.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; path = calabash.framework; sourceTree = "<group>"; };
+		68C266C41D78976400EC4F17 /* DigitalDay-cal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DigitalDay-cal.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		68C266C51D789B4A00EC4F17 /* ContainerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContainerViewController.h; sourceTree = "<group>"; };
+		68C266C61D789B4A00EC4F17 /* ContainerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContainerViewController.m; sourceTree = "<group>"; };
+		68C266C91D78BCA700EC4F17 /* Material.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Material.framework; path = Carthage/Build/iOS/Material.framework; sourceTree = "<group>"; };
+		68C266CD1D78BD2A00EC4F17 /* SVProgressHUD.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SVProgressHUD.framework; path = Carthage/Build/iOS/SVProgressHUD.framework; sourceTree = "<group>"; };
 		68C7773A1D775C3800FB32EC /* DigitalDay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DigitalDay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		68C7773E1D775C3800FB32EC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		68C777401D775C3800FB32EC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -54,10 +106,23 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		6070e8d9fddb6657683c1e1d /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68C266D01D78BD8000EC4F17 /* SVProgressHUD.framework in Frameworks */,
+				68C266D31D78BD8600EC4F17 /* Material.framework in Frameworks */,
+				4cb76ef02a2993059f79e044 /* CFNetwork.framework in Frameworks */,
+				0d2c4a01b05072bd5388a858 /* calabash.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		68C777371D775C3800FB32EC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68C266CE1D78BD2A00EC4F17 /* SVProgressHUD.framework in Frameworks */,
+				68C266CA1D78BCA700EC4F17 /* Material.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +143,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		68C266C31D78975200EC4F17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				68C266CD1D78BD2A00EC4F17 /* SVProgressHUD.framework */,
+				68C266C91D78BCA700EC4F17 /* Material.framework */,
+				24fc8f7342b603f5d8392483 /* CFNetwork.framework */,
+				47ca8a1e84b8e0ba3749b9a8 /* calabash.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		68C777311D775C3700FB32EC = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +161,7 @@
 				68C777561D775C3800FB32EC /* DigitalDayTests */,
 				68C777611D775C3800FB32EC /* DigitalDayUITests */,
 				68C7773B1D775C3800FB32EC /* Products */,
+				68C266C31D78975200EC4F17 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -94,6 +171,7 @@
 				68C7773A1D775C3800FB32EC /* DigitalDay.app */,
 				68C777531D775C3800FB32EC /* DigitalDayTests.xctest */,
 				68C7775E1D775C3800FB32EC /* DigitalDayUITests.xctest */,
+				68C266C41D78976400EC4F17 /* DigitalDay-cal.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -105,6 +183,8 @@
 				68C777411D775C3800FB32EC /* AppDelegate.m */,
 				68C777431D775C3800FB32EC /* ViewController.h */,
 				68C777441D775C3800FB32EC /* ViewController.m */,
+				68C266C51D789B4A00EC4F17 /* ContainerViewController.h */,
+				68C266C61D789B4A00EC4F17 /* ContainerViewController.m */,
 				68C777461D775C3800FB32EC /* Main.storyboard */,
 				68C777491D775C3800FB32EC /* Assets.xcassets */,
 				68C7774B1D775C3800FB32EC /* LaunchScreen.storyboard */,
@@ -150,6 +230,7 @@
 				68C777361D775C3800FB32EC /* Sources */,
 				68C777371D775C3800FB32EC /* Frameworks */,
 				68C777381D775C3800FB32EC /* Resources */,
+				68C266CC1D78BCA700EC4F17 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -196,6 +277,24 @@
 			productReference = 68C7775E1D775C3800FB32EC /* DigitalDayUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		ac6d4d0fc5556d8d48c4a69b /* DigitalDay-cal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = a7b035c70d0fb1333fc2e161 /* Build configuration list for PBXNativeTarget "DigitalDay-cal" */;
+			buildPhases = (
+				42635dc308bee71ba60a826b /* Sources */,
+				6070e8d9fddb6657683c1e1d /* Frameworks */,
+				842545723ce1e1b8e1b3610a /* Resources */,
+				68C266D21D78BD8000EC4F17 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DigitalDay-cal";
+			productName = "DigitalDay-cal";
+			productReference = 68C266C41D78976400EC4F17 /* DigitalDay-cal.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -234,6 +333,7 @@
 				68C777391D775C3800FB32EC /* DigitalDay */,
 				68C777521D775C3800FB32EC /* DigitalDayTests */,
 				68C7775D1D775C3800FB32EC /* DigitalDayUITests */,
+				ac6d4d0fc5556d8d48c4a69b /* DigitalDay-cal */,
 			);
 		};
 /* End PBXProject section */
@@ -263,15 +363,37 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		842545723ce1e1b8e1b3610a /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9899e1faed8c35517ffdeac2 /* LaunchScreen.storyboard in Resources */,
+				e8fd62473c3a0c2626b96294 /* Assets.xcassets in Resources */,
+				303ef7e743e9700ef2a2b0d1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		42635dc308bee71ba60a826b /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				d43085a0952ede31d4bc5933 /* ViewController.m in Sources */,
+				37e384175791463049a791a7 /* AppDelegate.m in Sources */,
+				68C266C81D789B6200EC4F17 /* ContainerViewController.m in Sources */,
+				2fb306dd69873a7ec0267f8f /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		68C777361D775C3800FB32EC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				68C777451D775C3800FB32EC /* ViewController.m in Sources */,
 				68C777421D775C3800FB32EC /* AppDelegate.m in Sources */,
+				68C266C71D789B4A00EC4F17 /* ContainerViewController.m in Sources */,
 				68C7773F1D775C3800FB32EC /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -327,6 +449,52 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		095e0b74b668d2ad4e0dce5a /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = DigitalDay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-force_load",
+					"\"$(SRCROOT)/calabash.framework/calabash\"",
+					"-lstdc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ciandt.test.DigitalDay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1809cc3e6e774b4fc751c691 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = DigitalDay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-force_load",
+					"\"$(SRCROOT)/calabash.framework/calabash\"",
+					"-lstdc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ciandt.test.DigitalDay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		68C777651D775C3800FB32EC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -415,6 +583,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = DigitalDay/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ciandt.test.DigitalDay;
@@ -426,6 +598,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = DigitalDay/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ciandt.test.DigitalDay;
@@ -498,6 +674,7 @@
 				68C777691D775C3800FB32EC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		68C7776A1D775C3800FB32EC /* Build configuration list for PBXNativeTarget "DigitalDayTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +683,7 @@
 				68C7776C1D775C3800FB32EC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		68C7776D1D775C3800FB32EC /* Build configuration list for PBXNativeTarget "DigitalDayUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +692,16 @@
 				68C7776F1D775C3800FB32EC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		a7b035c70d0fb1333fc2e161 /* Build configuration list for PBXNativeTarget "DigitalDay-cal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				095e0b74b668d2ad4e0dce5a /* Debug */,
+				1809cc3e6e774b4fc751c691 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
